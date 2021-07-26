@@ -57,6 +57,13 @@ namespace Akeraiotitasoft.ConsoleDriving
         IConsoleDriverBuilder UseServiceProviderFactory<TContainerBuilder>(IServiceProviderFactory<TContainerBuilder> factory);
 
         /// <summary>
+        /// Overrides the factory used to create the service provider.
+        /// </summary>
+        /// <typeparam name="TContainerBuilder">The type of builder.</typeparam>
+        /// <returns>The same instance of the <see cref="IConsoleDriverBuilder"/> for chaining.</returns>
+        IConsoleDriverBuilder UseServiceProviderFactory<TContainerBuilder>(Func<ConsoleDriverBuilderContext, IServiceProviderFactory<TContainerBuilder>> factory);
+
+        /// <summary>
         /// Enables configuring the instantiated dependency container. This can be called multiple times and
         /// the results will be additive.
         /// </summary>

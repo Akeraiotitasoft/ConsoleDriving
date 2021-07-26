@@ -5,14 +5,15 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akeraiotitasoft.ConsoleDriving.Abstractions", "src\Akeraiotitasoft.ConsoleDriving.Abstractions\Akeraiotitasoft.ConsoleDriving.Abstractions.csproj", "{A47E267B-4482-4BC2-B6B8-0742210ED09D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akeraiotitasoft.ConsoleDriving", "src\Akeraiotitasoft.ConsoleDriver\Akeraiotitasoft.ConsoleDriving.csproj", "{38C92B86-4265-4399-BEC5-5C35C1C2367B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3BBE6C0-F6AB-4507-8AFE-13405448321D}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		akeraiotitasoft.png = akeraiotitasoft.png
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akeraiotitasoft.ConsoleDriving", "src\Akeraiotitasoft.ConsoleDriving\Akeraiotitasoft.ConsoleDriving.csproj", "{8B82FD0A-B0EE-46DB-B448-878869B1015D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,10 +25,10 @@ Global
 		{A47E267B-4482-4BC2-B6B8-0742210ED09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A47E267B-4482-4BC2-B6B8-0742210ED09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A47E267B-4482-4BC2-B6B8-0742210ED09D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{38C92B86-4265-4399-BEC5-5C35C1C2367B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38C92B86-4265-4399-BEC5-5C35C1C2367B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38C92B86-4265-4399-BEC5-5C35C1C2367B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38C92B86-4265-4399-BEC5-5C35C1C2367B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B82FD0A-B0EE-46DB-B448-878869B1015D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B82FD0A-B0EE-46DB-B448-878869B1015D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B82FD0A-B0EE-46DB-B448-878869B1015D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B82FD0A-B0EE-46DB-B448-878869B1015D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -33,7 +33,7 @@
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
     <HelpTitle>Akeraiotitasoft.ConsoleDriving Class Library</HelpTitle>
-    <HelpFileVersion>0.1.0.0</HelpFileVersion>
+    <HelpFileVersion>0.2.0.0</HelpFileVersion>
     <NamingMethod>Guid</NamingMethod>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <RootNamespaceContainer>False</RootNamespaceContainer>

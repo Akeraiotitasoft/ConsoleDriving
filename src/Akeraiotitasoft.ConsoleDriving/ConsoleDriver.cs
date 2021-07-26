@@ -24,7 +24,9 @@ namespace Akeraiotitasoft.ConsoleDriving
         /// <returns>An instance of the console driver builder that implements <see cref="IConsoleDriverBuilder"/></returns>
         public static IConsoleDriverBuilder CreateDefaultBuilder(string[] args)
         {
-            return new ConsoleDriverBuilder(args);
+            ConsoleDriverBuilder builder = new (args);
+            builder.ConfigureDefaults(args);
+            return builder;
         }
     }
 }
