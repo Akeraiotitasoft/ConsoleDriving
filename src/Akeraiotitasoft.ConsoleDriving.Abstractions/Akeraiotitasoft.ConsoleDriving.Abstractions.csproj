@@ -6,11 +6,11 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>Akeraiotitasoft LLC</Authors>
     <Description>The Driver pattern for console applications</Description>
-    <Copyright>(x) 2021 Akeraiotitasoft LLC</Copyright>
+    <Copyright>(c) 2021 Akeraiotitasoft LLC</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageTags>driver, console, di, ioc, logging, configuration</PackageTags>
-    <PackageReleaseNotes>This is the beta version</PackageReleaseNotes>
-    <Version>0.2.0-beta</Version>
+    <PackageReleaseNotes>First Release</PackageReleaseNotes>
+    <Version>1.0.0</Version>
     <PackageProjectUrl />
     <RepositoryUrl>https://github.com/Akeraiotitasoft/ConsoleDriving</RepositoryUrl>
     <PackageIcon>akeraiotitasoft.png</PackageIcon>

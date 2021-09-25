@@ -2,18 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <Version>0.2.0-beta</Version>
-    <Authors>Akeraiotitasoft LLC</Authors>
+    <Version>1.0.0</Version>
+    <Authors>Robert Kolski</Authors>
     <Description>The Driver pattern for console applications.</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Copyright>(c) 2021 Akeraiotitasoft LLC</Copyright>
     <PackageTags>driver, console, di, ioc, logging, configuration</PackageTags>
-    <PackageReleaseNotes>Beta Version</PackageReleaseNotes>
+    <PackageReleaseNotes>First Release</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/Akeraiotitasoft/ConsoleDriving</RepositoryUrl>
     <PackageIcon>akeraiotitasoft.png</PackageIcon>
     <PackageIconUrl />
+    <Company>Akeraiotitasoft LLC</Company>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
